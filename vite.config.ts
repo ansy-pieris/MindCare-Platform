@@ -1,12 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
-
-// https://vite.dev/config/
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
-    react(),        // React support
-    tailwindcss(),  // Tailwind support
+    tailwindcss(),
   ],
-  base: '/MindCare-Platform/', // 👈 Replace with your GitHub repo name
-});
+})
